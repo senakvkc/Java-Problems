@@ -2,7 +2,7 @@
 
 This repository contains problems to help understand the basic concepts of programming. 
 
-## Power Function Iterative
+## PowerFunction.java
 
 Given two doubles, base and exponent, power function calculates base over exponent. 
 
