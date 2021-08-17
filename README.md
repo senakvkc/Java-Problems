@@ -2,7 +2,7 @@
 
 This repository contains problems to help understand the basic concepts of programming. 
 
-## Power Function v.Iterative
+## Power Function Iterative
 
 Given two doubles, base and exponent, power function calculates base over exponent. 
 
