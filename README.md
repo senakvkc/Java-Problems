@@ -1,6 +1,6 @@
 # Java-Problems
 
-This repository contains problems to help understanding the basic consepts of programming.
+This repository contains problems to help understand the basic concepts of programming. 
 
 ## Power Function
 
