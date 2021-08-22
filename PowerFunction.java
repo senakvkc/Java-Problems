@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class Exponent {
 
     // note to self: it's important to make this function double, with int variable 
     // it won't be able to calculate (1 / base) which is basically a double
@@ -21,12 +21,12 @@ public class App {
     }
     public static void main(String[] args) throws Exception {
 
-        int user_base, user_exponent;
+        double user_base, user_exponent;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter base: ");
-        user_base = sc.nextInt();
+        user_base = sc.nextDouble();
         System.out.print("Enter exponent: ");
-        user_exponent = sc.nextInt();
+        user_exponent = sc.nextDouble();
 
         double pow = power(user_base, user_exponent);
 
