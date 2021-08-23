@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App {
 
     // Recursive function to calculate Factorial of a given number
-    static int Factorial(int n){
+    static long Factorial(int n){
         if(n == 0 || n == 1){
             return 1;
         } else {
@@ -16,7 +16,7 @@ public class App {
         System.out.print("Enter the number you want to calculate its factorial(You cannot calculate the factorial of a negative number): ");
         user_input = scan.nextInt();
 
-        int fac = Factorial(user_input);
+        long fac = Factorial(user_input);
         System.out.println("Factorial of " + user_input + " is " + fac);
     }
 }
