@@ -13,7 +13,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         int user_input;
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the number you want to calculate its factorial: ");
+        System.out.print("Enter the number you want to calculate its factorial(You cannot calculate the factorial of a negative number): ");
         user_input = scan.nextInt();
 
         int fac = Factorial(user_input);
