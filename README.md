@@ -24,3 +24,10 @@ Given an integer called n, our function calculates the factorial of it. Example:
 
 * Recursive approach
 * Checks if n is equal to 1 or 0 or not
+
+## Iterative Factorial
+
+Does the same with RecursiveFactorial function. Given an integer called n, our function calculates the factorial of it. Example: n! = n.(n-1).(n-2)...1
+
+* Iterative approach
+* Checks if n is equal to 1 or 0 or not
